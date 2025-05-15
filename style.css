@@ -150,20 +150,20 @@ main {
   display: inline;
 }
 
-.content h1 {
+article h1 {
   margin: 32px 0;
 }
 
-.content h3 {
+article h3 {
   margin-bottom: 12px;
 }
 
-.content>p {
+article p {
   margin-bottom: 36px;
   line-height: 1.5;
 }
 
-.content>img {
+article img {
   display: block;
   margin: 36px auto;
   width: 70%;
