@@ -4,45 +4,165 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Science News Portal</title>
   </head>
   <body>
     <!-- Header -->
     <header>
       <div class="container-header">
-        <div class="logo">
-          <a href="#" title="logo">
-            <img src="./assets/logoipsum-214.svg" alt="" />
-          </a>
+        <div class="logo-menu">
+          <div class="logo">
+            <a href="" title="logo">
+              <img src="./assets/logoipsum-214.svg" alt="" />
+            </a>
+          </div>
+          <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-        <div class="search-bar">
-          <svg class="search-icon" aria-hidden="true" viewBox="0 0 24 24">
-            <g>
-              <path
-                d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
-              ></path>
-            </g>
-          </svg>
-          <input placeholder="Search" type="search" class="search-input" />
+
+        <div class="menu" id="menu">
+          <div class="search-bar">
+            <svg class="search-icon" aria-hidden="true" viewBox="0 0 24 24">
+              <g>
+                <path
+                  d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+                ></path>
+              </g>
+            </svg>
+            <input placeholder="Search" type="search" class="search-input" />
+          </div>
+          <nav>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Events</a>
+          </nav>
         </div>
-        <nav>
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Events</a>
-        </nav>
       </div>
     </header>
     <!-- End of Header -->
 
     <!-- Main -->
     <main>
-      <aside></aside>
-      <div class="content"></div>
+      <div class="container-main">
+        <div class="content">
+          <p class="content-info">
+            <time datetime="2025-05-15">15 May 2025</time> |
+            <span>rizkyar</span>
+          </p>
+
+          <article>
+            <h1>EARTH SCIENCE 101</h1>
+            <p>
+              Earth science or geoscience includes all fields of natural science related to the planet Earth. Earth science examines the Earth as an interconnected set of spheres, including the Geosphere (rocks, land), Atmosphere (air,
+              weather), Hydrosphere (water, ice) and Biosphere (plants, animals), as well as their interaction with the Exosphere (sun, space).
+            </p>
+
+            <img src="./assets/earth-science.png" alt="earth-science" loading="lazy" />
+
+            <h3>Geology: Science of the Earth</h3>
+            <p>
+              <strong>Geology</strong> is the primary Earth science. The word means “study of the Earth.” Geology deals with the composition of Earth materials, Earth structures, and Earth processes. It is also concerned with the organisms
+              of the planet and how the planet has changed over time. Geologists search for fuels and minerals, study natural hazards, and work to protect Earths environment.
+            </p>
+
+            <h3>Meteorology: Science of the Atmosphere</h3>
+            <p>
+              <strong>Meteorology</strong> is the study of the atmosphere and how processes in the atmosphere determine Earth's weather and climate. Meteorology is a very practical science because everyone is concerned about the weather.
+              How climate changes over time in response to the actions of people is a topic of urgent worldwide concern. The study of meteorology is of critical importance in protecting Earth's environment.
+            </p>
+
+            <h3>Oceanography: Science of the Oceans</h3>
+            <p>
+              <strong>Oceanography</strong> is the study of Earth's oceans - their composition, movement, organisms and processes. The oceans cover most of our planet and are important resources for food and other commodities. They are
+              increasingly being used as an energy source. The oceans also have a major influence on the weather, and changes in the oceans can drive or moderate climate change. Oceanographers work to develop the ocean as a resource and
+              protect it from human impact. The goal is to utilize the oceans while minimizing the effects of our actions.
+            </p>
+
+            <h3>Astronomy: Science of the Universe</h3>
+            <p>
+              <strong>Astronomy</strong> is the study of the universe. Here are some examples of why studying space beyond Earth is important: the moon drives the ocean's tidal system, asteroid impacts have repeatedly devastated Earth's
+              inhabitants, and energy from the sun drives our weather and climates. A knowledge of astronomy is essential to understanding the Earth. Astronomers can also use a knowledge of Earth materials, processes and history to
+              understand other planets - even those outside of our own solar system.
+            </p>
+
+            <div class="references">
+              <h2>References</h2>
+              <ul>
+                <li>www.australianenvironmentaleducation.com.au/education-resources/earth-science/</li>
+                <li>www.emich.edu/geography-geology/programs/earth-system-science/</li>
+              </ul>
+            </div>
+          </article>
+
+          <div class="subs-container">
+            <img src="/assets/logoipsum-214.svg" class="subs-img" alt="" />
+            <div class="subs-content">
+              <h2>Subscribe to Our Newsletter</h2>
+              <p>Keep up our latest news and events for <strong>Free!</strong></p>
+              <form action="" class="subs-form">
+                <input class="subs-input" type="email" title="input" placeholder="yourname@gmail.com" />
+                <button class="subs-btn" type="submit" title="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aside -->
+        <aside>
+          <h2>Related Topics</h2>
+
+          <div class="related-topics">
+            <div class="related-item">
+              <div class="img-placeholder">
+                <img src="https://picsum.photos/id/215/250/150" alt="" loading="lazy" />
+              </div>
+              <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+            </div>
+            <div class="related-item">
+              <div class="img-placeholder">
+                <img src="https://picsum.photos/id/220/250/150" alt="" loading="lazy" />
+              </div>
+              <a>Lorem ipsum dolor sit amet consectetur....</a>
+            </div>
+            <div class="related-item">
+              <div class="img-placeholder">
+                <img src="https://picsum.photos/id/225/250/150" alt="" loading="lazy" />
+              </div>
+              <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+            </div>
+          </div>
+
+          <a>See More...</a>
+        </aside>
+      </div>
     </main>
     <!-- End of Main -->
 
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+      <div class="container-footer">
+        <div class="socials">
+          <a href="" title="facebook">
+            <img src="./assets/facebook-brands.svg" alt="" />
+          </a>
+          <a href="" title="instagram">
+            <img src="./assets/instagram-brands.svg" alt="" />
+          </a>
+          <a href="" title="x">
+            <img src="./assets/x-brands.svg" alt="" />
+          </a>
+          <a href="" title="youtube">
+            <img src="./assets/youtube-brands.svg" alt="" />
+          </a>
+        </div>
+        <p>© 2025 rizkyar - All right reserved.</p>
+      </div>
+    </footer>
     <!-- End of Footer -->
+
+    <script src="./script.js"></script>
   </body>
 </html>
