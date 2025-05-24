@@ -35,7 +35,5 @@ Edit -->
 1. Clone atau download repositori ini:
    ```bash
    git clone https://github.com/rizkyar03/news-portal.git
-2. Buka file index.html di browser pilihanmu (double-click atau buka lewat text editor seperti VS Code).
-
-   Tidak memerlukan instalasi atau server tambahan karena proyek ini bersifat statis.
+2. Buka file index.html di browser (double-click atau buka lewat text editor seperti VS Code).
 
