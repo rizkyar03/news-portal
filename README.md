@@ -2,6 +2,8 @@
 
 **Science News Portal** adalah sebuah website sederhana yang menampilkan berita-berita terbaru seputar dunia sains. Website ini dibangun menggunakan HTML, CSS, dan JavaScript murni sebagai proyek pengenalan pengembangan web statis.
 
+Ini adalah project akhir untuk course Belajar Dasar Pemrograman Web by Dicoding
+
 ## 🔍 Fitur
 
 - ✅ Tampilan modern dan responsif
